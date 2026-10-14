@@ -23,16 +23,16 @@
 
 /* palette Bloom IT */
 :root {
-  --bg: #fdf0e8;
-  --surface: #fffaf6;
-  --text: #2b2b2b;
+  --bg: #fdf0ea; /* beige rosé */
+  --surface: #ffffff;
+  --text: var(--anthracite);
   --muted: #6b6461;
-  --border: #f0ddd2;
-  --coral: #fd625e;
-  --teal: #84c5b7;
-  --teal-soft: #a3d0c6;
-  --blue: #0616d9;
-  --link: #0a3a6b;
+  --border: #ede5d9; /* gris bleuté */
+  --coral: #fc605b;
+  --teal: #82c4b7;
+  --blue: #0416dc; /* bleu Klein */
+  --link: #083b5b;
+  --anthracite: #2a2a2b; /* gris anthracite */
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -41,7 +41,6 @@
     --text: #f3ebe6;
     --muted: #b3a9a4;
     --border: #3a3331;
-    --teal-soft: #3f6d63;
     --blue: #7d87ff;
     --link: #9fd6c9;
   }
@@ -165,7 +164,7 @@ main h2 {
 }
 .card:nth-child(2) h3 {
   background: var(--teal);
-  color: #1f2b28;
+  color: var(--anthracite);
 }
 .card:nth-child(3) h3 {
   background: var(--blue);
@@ -196,7 +195,7 @@ main h2 {
 .hobby .card h3 {
   flex: 0 0 100%;
   background: var(--teal);
-  color: #1f2b28;
+  color: var(--anthracite);
 }
 
 /* footer */
